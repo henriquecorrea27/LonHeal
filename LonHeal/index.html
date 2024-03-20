@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LonHeal</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-search/dist/leaflet-search.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/logo1.png" />
+
+    <style>
+      #mapid {
+        height: 100vh;
+      }
+      .legend {
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        z-index: 1000;
+        font-weight: 400;
+        font-size: 18px;
+        font-family: "Roboto Slab", serif;
+      }
+      .legend-item {
+        margin-bottom: 5px;
+      }
+      .legend-item img {
+        vertical-align: middle;
+        margin-right: 1px;
+        width: 35px;
+        height: 35px;
+      }
+
+      .search-control {
+        position: absolute;
+        top: 20px;
+        left: 70px;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+      }
+      .search-control input {
+        width: 180px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        outline: none;
+        font-size: 16px;
+        font-family: "Roboto Slab", serif;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      .search-control button {
+        padding: 10px 10px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .search-control button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapid"></div>
+
+    <div class="search-control">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Pesquisar estabelecimento"
+      />
+      <button id="search-button">Pesquisar</button>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item">
+        <img src="images/2.png" alt="Hospital" /> Hospital
+      </div>
+      <div class="legend-item">
+        <img src="images/5.png" alt="Clínica" /> Clínica
+      </div>
+      <div class="legend-item">
+        <img src="images/3.png" alt="Unidade Básica de Saúde" /> UBS
+      </div>
+      <div class="legend-item">
+        <img src="images/4.png" alt="Outro" /> Outro
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-search/dist/leaflet-search.min.js"></script>
+    <script>
+      var map = L.map("mapid").setView([-23.317253, -51.165204], 13); // Definindo o centro do mapa e o nível de zoom
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(map);
+
+      // Função para abrir o mapa na localização do usuário
+      function openMapAtUserLocation() {
+        // Verificar se o navegador suporta a API de geolocalização
+        if (navigator.geolocation) {
+          // Obter a localização do usuário
+          navigator.geolocation.getCurrentPosition(
+            function (position) {
+              // Coordenadas da localização do usuário
+              var userCoordinates = [
+                position.coords.latitude,
+                position.coords.longitude,
+              ];
+
+              // Zoom desejado
+              var zoomLevel = 16;
+
+              // Configurar o mapa para exibir a localização do usuário com o zoom específico
+              map.setView(userCoordinates, zoomLevel);
+            },
+            function (error) {
+              console.error("Erro ao obter a localização do usuário:", error);
+            }
+          );
+        } else {
+          console.error("Seu navegador não suporta geolocalização.");
+        }
+      }
+
+      // Chamar a função para abrir o mapa na localização do usuário
+      openMapAtUserLocation();
+
+      // Função para adicionar o marcador da localização do usuário
+      function addLocationMarker(latlng) {
+        L.marker(latlng, {
+          icon: L.icon({
+            iconUrl: "images/location.png",
+            iconSize: [50, 50],
+            iconAnchor: [12, 41],
+            popupAnchor: [16, -35],
+            shadowSize: [41, 41],
+          }),
+        })
+          .addTo(map)
+          .bindPopup("Sua localização")
+          .openPopup();
+      }
+
+      // Solicitar permissão de localização e adicionar o marcador da localização do usuário
+      navigator.geolocation.getCurrentPosition(
+        function (position) {
+          var latlng = [position.coords.latitude, position.coords.longitude];
+          addLocationMarker(latlng);
+        },
+        function (error) {
+          console.error("Erro ao obter a localização do usuário:", error);
+        }
+      );
+
+      // Adicione aqui o GeoJSON com as áreas de saúde
+      fetch("saude_londrina.geojson")
+        .then((response) => response.json())
+        .then((data) => {
+          L.geoJSON(data, {
+            pointToLayer: function (feature, latlng) {
+              var iconUrl;
+              switch (feature.properties.tipo) {
+                case "Hospital":
+                  iconUrl = "images/2.png";
+                  break;
+                case "Clínica":
+                  iconUrl = "images/5.png";
+                  break;
+                case "Unidade Básica de Saúde":
+                  iconUrl = "images/3.png";
+                  break;
+                default:
+                  iconUrl = "images/4.png";
+                  break;
+              }
+
+              var customIcon = L.icon({
+                iconUrl: iconUrl,
+                iconSize: [60, 60],
+                iconAnchor: [12, 41],
+                popupAnchor: [18, -35],
+                shadowSize: [41, 41],
+              });
+
+              return L.marker(latlng, { icon: customIcon });
+            },
+            onEachFeature: function (feature, layer) {
+              var popupContent =
+                "<b>" +
+                feature.properties.name +
+                "</b><br>" +
+                "<b>Endereço:</b> " +
+                feature.properties.address +
+                "<br>" +
+                "<b>Tefefone:</b> " +
+                feature.properties.telefone +
+                "<br>" +
+                "<b>Atendimento:</b> " +
+                feature.properties.atendimento +
+                "<br>" +
+                "<b>Informações adicionais:</b> " +
+                feature.properties.info +
+                "<br>" +
+                "<b>Tipo:</b> " +
+                feature.properties.tipo;
+              layer.bindPopup(popupContent);
+            },
+          }).addTo(map);
+        })
+        .catch((error) => {
+          console.error("Erro ao carregar o arquivo GeoJSON:", error);
+        });
+
+      // Adiciona um evento de clique ao botão de pesquisa
+      document
+        .getElementById("search-button")
+        .addEventListener("click", function () {
+          var searchText = document
+            .getElementById("search-input")
+            .value.toLowerCase();
+          var found = false;
+          map.eachLayer(function (layer) {
+            if (
+              layer instanceof L.Marker &&
+              layer.feature &&
+              layer.feature.properties.name.toLowerCase().includes(searchText)
+            ) {
+              var latlng = layer.getLatLng();
+              map.setView(latlng, 17);
+              found = true;
+              layer.openPopup();
+            }
+          });
+          if (!found) {
+            alert("Estabelecimento não encontrado.");
+          }
+        });
+    </script>
+  </body>
+</html>

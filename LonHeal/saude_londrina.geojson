@@ -1,0 +1,1242 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.128499, -23.325807]
+      },
+      "properties": {
+        "name": "Hospital Universitário da Universidade Estadual de Londrina",
+        "address": "Av. Robert Koch, 60 - Operária, Londrina - PR, 86038-350",
+        "info": "Maior hospital público estadual do PR, 100% SUS. Desenvolve o ensino, a pesquisa e a extensão de serviços à comunidade. Órgão suplementar da UEL.",
+        "atendimento": "24 horas",
+        "telefone": "4333712000",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.17631003783813, -23.334845844739164]
+      },
+      "properties": {
+        "name": "Centro do Pulmão Londrina",
+        "address": "Av. Me. Leônia Milito, 1500 - Sala 208 - Palhano 2, Londrina - PR, 86050-270",
+        "info": "Pneumologia Clínica — especializado na área pneumologia clínica e pediátrica, cirurgia torácica. Clínica especializada em doenças respiratórias.",
+        "atendimento": "Semana, 08:00–18:00, Sábado 09:00 - 13:00",
+        "telefone": "4330206126",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.159487038698195, -23.326972210560925]
+      },
+      "properties": {
+        "name": "Dr. Douglas Rodrigues Cardiologia & Ecocardiografia",
+        "address": "Av. Bandeirantes, 736 - Ipiranga, Londrina - PR, 86010-020",
+        "info": " Consulta médica, ecocardiograma transtorácico, Doppler de artérias carótidas e vertebrais.",
+        "atendimento": "Semana, 08:00–18:30, Sábado 08:00 - 12:00",
+        "telefone": "4333718500",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16060410261798, -23.32655902431709]
+      },
+      "properties": {
+        "name": "Hospital Evangélico de Londrina",
+        "address": "Av. Bandeirantes, 618 - Ipiranga, Londrina - PR, 86015-900",
+        "info": "Hospital Evangélico de Londrina é uma instituição filantrópica, que realiza a maioria de seus atendimentos ao SUS e que tem a humanização e a excelência como seus valores",
+        "atendimento": "24 horas",
+        "telefone": "4333781000",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15399603486433, -23.25947576825343]
+      },
+      "properties": {
+        "name": "Hospital Dr Anísio Figueiredo - Zona Norte de Londrina",
+        "address": "R. Odilon Braga, 199 - Sebastiao de Melo César, Londrina - PR, 86084-600",
+        "info": "Hospital Regional, mantido pela Secretaria de Estado da Saúde do Paraná, referência para atendimento de urgência e emergência para toda a macro região norte do Estado do Paraná nas especialidades de Ortopedia, Cirurgia Geral e Vascular.",
+        "atendimento": "24 horas",
+        "telefone": "4333764600",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.139490990214405, -23.250729426825007]
+      },
+      "properties": {
+        "name": "Posto de Saúde do Conjunto Habitacional Aquiles Stenghel",
+        "address": "R. Vergílio Perin, 815 - Cj Aquiles Stenghel Guimarães, Londrina - PR, 86086-070",
+        "info": "Vigilância em Saúde, Pré-natal/Parto e Nascimento, Tratamento da Tuberculose, Homeopatia, Medicina Tradicional Chinesa, Acupuntura, Medicina Antroposófica, Fitoterapia, Termalismo Social, Crenoterapia, Arteterapia, Ayurveda, Biodança, Dança Circular, Meditação, Musicoterapia, Naturopatia, Osteopatia, Quiropraxia, Reflexoterapia, Reiki, Shantala, Shiatsu, Yoga Musicoterapia, Naturopatia, Osteopatia, Controle de Tabagismo, Saúde da Família, Clínico Geral",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333780010",
+        "tipo": "Posto de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.14406239769685, -23.363085977250677]
+      },
+      "properties": {
+        "name": "Hospital Dr. Eulalino Ignácio De Andrade",
+        "address": "R. das Orquídeas, 75 - Ouro Branco, Londrina - PR, 86042-180",
+        "info": "Anestesiologia, Pediatria, Ortopedia, traumatologia, Ginecologia e obstetrícia, Clínico geral, Cirurgia vascular, Cirurgia plástica, Cirurgia cardiovascular, Cardiologia, Urologia",
+        "atendimento": "24 horas",
+        "telefone": "4333741900",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.177176533262866, -23.32954601453189]
+      },
+      "properties": {
+        "name": "Clínica de Oncologia e Medicamentos Especiais",
+        "address": "Av. Ayrton Senna da Silva, 555 - Guanabara, Londrina - PR, 86050-460",
+        "info": "O espaço oferece tratamentos de quimioterapia e aplicação de medicamentos por enfermeiros altamente qualificados, além de excelente atendimento e conforto.",
+        "atendimento": "Semana, 07:00 - 19:00",
+        "telefone": "4333755234",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.12206961383906, -23.286273510039905]
+      },
+      "properties": {
+        "name": "Ubs - Lindóia",
+        "address": "Av. das Maritacas, 1800 - Santa Izabel, Londrina - PR, 86030-030",
+        "info": "Os principais serviços oferecidos pela UBS - Lindóia são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333790751",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.12503334745522, -23.278938429367656]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Mister Thomas",
+        "address": "R. José Martins de Oliveira, 215 - Conj. Hab. Mr. Thomas, Londrina - PR, 86031-540",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Mister Thomas são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333790738",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.122989578332835, -23.291648055090697]
+      },
+      "properties": {
+        "name": "Angelus Odonto",
+        "address": "Waldir Landgraf Street, 101 - Lindóia, Londrina - PR, 86031-218",
+        "info": "Clínica focada na Odontologia com foco na busca por soluções com base científica e tecnológica.",
+        "atendimento": "Semana, 08:00–18:00",
+        "telefone": "4321013200",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16420557855335, -23.341450223258278]
+      },
+      "properties": {
+        "name": "Hospital do Coração - Bela Suíça",
+        "address": "R. Adhemar Pereira de Barros, 1199 - Bela Suiça, Londrina - PR, 86050-190",
+        "info": "A instituição hospitalar é especializada em casos de crianças, adolescentes e gestantes e conta com pronto-socorro infantil 24 horas, sempre com médico pediatra à disposição. No total, são 76 leitos de internamento, nove de UTI pediátrica e cinco de UTI neonatal.O serviço está disponível para pacientes de convênios e particulares.",
+        "atendimento": "24 horas",
+        "telefone": "4333058200",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.18868255837634, -23.298170850604]
+      },
+      "properties": {
+        "name": "Hospital Vida & Hospital Nova Vida",
+        "address": "R. Castro Alves, 740 - Jardim Shangri-Lá A, Londrina - PR, 86070-670",
+        "info": "O Hospital Vida, instituição hospitalar especializada em saúde mental, sem fins lucrativos, é mantida pela Associação de Amigos, Familiares e Doentes Mentais de Londrina – AFDM, oferece em sua matriz e filial 291 leitos para internação na especialidade de psiquiatria.",
+        "atendimento": "24 horas",
+        "telefone": "4333275858",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16583033750338, -23.277399184437513]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Carnascialli",
+        "address": "Rua da Esperança, 98 C.H. Carnascialli 1, Londrina - PR, 86077-130",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Carnascialli são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333790869",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.19814096635443, -23.265452313466675]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Padovani",
+        "address": "R. André Buck, 585 - Jd. Padovan, Londrina - PR, 86081-585",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Padovani são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333790850",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16510232465189, -23.338937285225576]
+      },
+      "properties": {
+        "name": "Cardiolife - Clínica De Cardiologia",
+        "address": "R. Basiléia, 80 - Bela Suiça, Londrina - PR, 86050-220",
+        "info": "Exames Laboratoriais, Serviço de coleta de sangue e urina, Consulta Cardiológica, Consulta Cardiológica, Avaliação clínica de doenças cardiovasculares, Check-up Cardiológico, Exame para prevenção e diagnóstico precoce de doenças cardiovasculares, Eletrocardiograma, Eletrocardiograma de 12 Derivações, Exame diagnóstico para diversas doenças cardíacas estruturais ou do ritmo cardíaco, Doppler de Carótidas e Vertebrais, Exame diagnóstico para doenças obstrutivas das artérias carótidas, Holter Cardiolife, Holter de 24 Horas, Exame diagnóstico para distúrbios do ritmo cardíaco (arritmias), Teste Ergométrico em Esteira, Teste Ergométrico em Esteira, Exame diagnóstico para alterações da circulação (isquemia) ou do ritmo cardíaco, fornece também informações para a orientação de atividade física, Monitorização Ambulatorial da Pressão Arterial (MAPA),Exame voltado para o diagnóstico e manejo terapêutico da hipertensão arterial sistêmica, Monitor de Eventos, Looper, O Monitor de Eventos ou Looper é um sistema de monitorização prolongada e contínua do eletrocardiograma ambulatorial, Ecodopplercardiograma, Ecodopplercardiograma Transtorácico, Exame diagnóstico para diversas doenças cardíacas estruturais (insuficiência cardíaca, doenças valvares, alterações de contratilidade ou da espessura miocárdica)",
+        "atendimento": "Semana, 07:00–18:00, Sábado, 08:00–12:00",
+        "telefone": "4333717000",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.223802577158274, -23.324009106910907]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Panissa/Maracanã",
+        "address": "R. da Ginástica Olímpica, 195 - Jardim Maracanã, Londrina - PR, 86056-260",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Panissa/Maracanã são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333790747",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.155982605550214, -23.33087601045898]
+      },
+      "properties": {
+        "name": "Hospital do Câncer de Londrina",
+        "address": "Rua Lucilla Ballalai, 212 - Jardim Petrópolis, Londrina - PR, 86015-520",
+        "info": "Hospital do Câncer de Londrina é uma entidade filantrópica, sem fins lucrativos e especializada no tratamento oncológico. A entidade é referência para 166 municípios no Estado do Paraná e o décimo no Brasil em apoio e tratamento a doentes de câncer.",
+        "atendimento": "24 horas",
+        "telefone": "4333792600",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16065398957938, -23.313306106044788]
+      },
+      "properties": {
+        "name": "Dra Fernanda Vargas - Psiquiatra infantil e de adolescente e Psiquiatra geral",
+        "address": "R. Piauí, 399 - sala 704 - Centro, Londrina - PR, 86010-410",
+        "info": "Clínica especializada em Psiquiatria infantil e de adolescente, além de Psiquiatria geral",
+        "atendimento": "Semana, 09:00–12:00 e 13:00–17:00",
+        "telefone": "43999453798",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16209452434255, -23.33557267675061]
+      },
+      "properties": {
+        "name": "ONTÓRAX - Cirurgia do Tórax de Londrina",
+        "address": "R. Adhemar Pereira de Barros, 679 - PROONCO-ONCOCLÍNICAS, Londrina - PR, 86050-190",
+        "info": "Estrutura física: – facilidade de acesso e segurança para pessoas com deficiência ou mobilidade reduzida (estacionamento, rampas de acesso, portas, wc’s, sofás). Estacionamento privativo com contador de acesso. – espaço para tratamento quimioterápico amplo, arejado, climatizado, equipado como tv a cabo, internet, wc privatido, poltronas confortáveis e encosto reclinável",
+        "atendimento": "Semana, 08:00–18:00",
+        "telefone": "4333054200",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.183692067926245, -23.317381032987136]
+      },
+      "properties": {
+        "name": "Dra. Gabriela Itimura | Dermatologista",
+        "address": "R. Vicente de Carvalho, 400 - Presidente, Londrina - PR, 86061-330",
+        "info": "Clínica especializada em aréas de dermatologia , estética, exercicio fisico e dores de disfunçoes músculo esqueléticas, individualizando o plano de tratamento.",
+        "atendimento": "Semana, 08:00–20:00",
+        "telefone": "4331320103",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.163554266080354, -23.319607646751706]
+      },
+      "properties": {
+        "name": "Hospital Infantil Sagrada Familia",
+        "address": "Av. Juscelino Kubitscheck, 2615 - Ipiranga, Londrina - PR, 86020-000",
+        "info": "No Hospital Infantil Sagrada Família cada criança é única e levada a sério, seja na rotina da enfermagem ou nos cuidados com a alimentação; em cirurgias complexas ou em pequenos procedimentos. A criança é respeitada e tratada como é: um ser humano em importante fase do desenvolvimento, tendo como norteador o Estatuto da Criança e do Adolescente (ECA). A assistência é baseada em modernos protocolos médico-hospitalares que alia as mais avançadas técnicas e tecnologia de ponta ao cuidado humanizado. ",
+        "atendimento": "24 horas",
+        "telefone": "4333731900",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.18784587926333, -23.320247552156836]
+      },
+      "properties": {
+        "name": "Clínica Desenvolver Suporte Educacional",
+        "address": "R. Nicolau Copérnico, 188 - Jardim Universitário, Londrina - PR, 86050-660",
+        "info": "Atendimento individual ou pequeno grupo, avaliação e intervenção psicopedagógica, monitoramento pedagógico. Capacitação e formação continuada para profissionais da Educação.",
+        "atendimento": "Semana, 07:30–20:00 e Sábado, 08:00–13:00",
+        "telefone": "43999920870",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.162869883851, -23.319393671272493]
+      },
+      "properties": {
+        "name": "Irmandade Santa Casa de Londrina",
+        "address": "R. Pernambuco, 1264 - Centro, Londrina - PR, 86020-121",
+        "info": " Atendimento geral adulto. Alta complexidade.",
+        "atendimento": "24 horas",
+        "telefone": "4333731850",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.177833178172826, -23.329687249718244]
+      },
+      "properties": {
+        "name": "Dra Rejane Pacheco - Otorrinolaringologista",
+        "address": "Av. Ayrton Senna da Silva, 500 - sala 702 - Palhano 1, Londrina - PR, 86050-460",
+        "info": "As especialidades de atendimento Dra. Rejane Pacheco De Sousa são: Otorrinolaringologista e Médico",
+        "atendimento": "Semana, 08:00–18:00",
+        "telefone": "4330372020",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15730296377641, -23.32731813361256]
+      },
+      "properties": {
+        "name": "Hospital Mater Dei de Londrina",
+        "address": "R. Sen. Souza Naves, 1681 - Jardim Londrilar, Londrina - PR, 86015-430",
+        "info": "O Hospital Mater Dei oferece estrutura completa com Pronto Atendimento 24 horas, internação em apartamento ou enfermaria de dois leitos, maternidade e UTI, com a qualidade que o paciente espera e merece. Com atendimento exclusivo para convênios e particulares, o Mater Dei conta com equipe multiprofissional e médicos nas mais diversas especialidades, qualificados para o que você precisa. A estrutura está voltada à sua segurança e bem-estar, com recursos disponíveis para todas as especialidades médicas. ",
+        "atendimento": "24 horas",
+        "telefone": "4333731300",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16079172512405, -23.311782902855267]
+      },
+      "properties": {
+        "name": "17° Regional de Saúde",
+        "address": "Alameda Miguel Blasi, 56 - Centro, Londrina - PR, 86020-390",
+        "info": "Atende às necessidades médicas e de bem-estar da população local, oferecendo uma variedade de serviços, como consultas médicas, exames laboratoriais, vacinação e programas de promoção da saúde. ",
+        "atendimento": "Semana, 08:30–17:00",
+        "telefone": "4333796100",
+        "tipo": "Outros"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15806697634328, -23.322746439917577]
+      },
+      "properties": {
+        "name": "Saúde Livre Vacinas Londrina",
+        "address": "R. Paes Leme, 940 - Sala 01 - Jardim America, Londrina - PR, 86010-610",
+        "info": "Saúde Livre Vacinas oferece o que existe de mais moderno em prevenção contra as doenças imunopreveníveis. Oferecemos vacinas para todas as faixas etárias, ou seja, para bebês, crianças, adolescentes, adultos, idosos e, também trabalhamos com vacina ocupacional.",
+        "atendimento": "Semana, 08:30–17:00, Sábado, 09:00–13:00",
+        "telefone": "4330173380",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15778027455114, -23.31920199802256]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Centro",
+        "address": "R. Sen. Souza Naves, 754 - Centro, Londrina - PR, 86010-060",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Centro são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–18:00",
+        "telefone": "4333790871",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16215534419676, -23.323229714979195]
+      },
+      "properties": {
+        "name": "Hospital Do Coração - Paes Leme",
+        "address": "R. Paes Leme, 1351 - Jardim America, Londrina - PR, 86010-610",
+        "info": "O Hospital do Coração de Londrina conta com um Centro de Cirurgia Torácica,A indicação de um marca-passo ou de outros dispositivos, como desfibriladores cardíacos implantáveis (CDIs) ou de terapia de ressincronização cardíaca (TRC). ",
+        "atendimento": "24 Horas",
+        "telefone": "4333152000",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.160682342984494, -23.327117087962435]
+      },
+      "properties": {
+        "name": "Loren de Oliveira Santana",
+        "address": "Av. Bandeirantes, 578-594 - Ipiranga, Londrina - PR, 86015-370",
+        "info": "Loren de Oliveira Santana atua no ramo de Hospital geral, horário de funcionamento domingo a sábado, das Aberto 24 horas.",
+        "atendimento": "24 Horas",
+        "telefone": "43999103333",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16253270003188, -23.323754006094294]
+      },
+      "properties": {
+        "name": "Urolit Londrina",
+        "address": "R. Olinda, 221 - Ipiranga, Londrina - PR, 86010-050",
+        "info": "A estrutura da Urolit conta com um centro cirúrgico para a realização de biopsias e procedimentos urológicos de hospital dia, estrutura preparada para oferecer atendimento de excelência e os melhores serviços na área da Urologia",
+        "atendimento": "Semana, 07:00–18:00, Sábado, 07:00–12:00",
+        "telefone": "4333771800",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15799801782302, -23.31815854762515]
+      },
+      "properties": {
+        "name": "Hoftalon Hospital de Olhos",
+        "address": "R. Sen. Souza Naves, 648 - Centro, Londrina - PR, 86010-160",
+        "info": "Principal Centro de Referência em Oftalmologia no Estado do Paraná, recebendo pacientes de diversas regiões do estado para atendimentos, gerenciados pelo Sistema Único de Saúde (SUS), particular e também convênios.",
+        "atendimento": "24 Horas",
+        "telefone": "4333759500",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15827690003188, -23.318587663653382]
+      },
+      "properties": {
+        "name": "Unidade Cambará - Hoftalon Hospital de Olhos",
+        "address": "R. Cambará, 714 - Centro, Londrina - PR, 86010-530",
+        "info": "Hoftalon é o maior prestador de serviços oftalmológicos em Londrina e região, porque estende os benefícios dos avanços da medicina a todos que necessitem, sem distinção de classe social ou condição econômica.",
+        "atendimento": "Semana, 07:00–18:00, Sábado, 07:00–12:00",
+        "telefone": "4333759500",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16256071782302, -23.325973037843184]
+      },
+      "properties": {
+        "name": "Gastroclínica",
+        "address": "R. Martin Luther King, 740 - Lago Parque, Londrina - PR, 86015-300",
+        "info": "A Gastroclínica realiza cirurgias na área da gastroenterologia, Cirurgia de cabeça e pescoço, Cirurgia geral, endoscopia, gastroenterologia, Cirurgia oncológica, cirurgia geral, Psicologia, Hepatologia, Estética, Reumatologia, Nutrição, nutrólogo, Urologia",
+        "atendimento": "Semana, 06:30–20:00, Sábado, 07:00–12:00",
+        "telefone": "4333720055",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.180181056292916, -23.29401237173093]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Jardim do Sol",
+        "address": "R. Via Láctea, 877 - Jardim do Sol, Londrina - PR, 86070-250",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Jardim do Sol são consultas médicas, inalações, injeções, curativos, vacinas, coletas de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333790777",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.18822768335114, -23.264663019530968]
+      },
+      "properties": {
+        "name": "UBS Chefe Newton",
+        "address": "R. Café Bourbon - Conj. Cafe, Londrina - PR, 86081-240",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Chefe Newton são consultas médicas, inalações, injeções, curativos, vacinas, coletas de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:15–19:00",
+        "telefone": "4333790876",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.19887739422976, -23.29087250704955]
+      },
+      "properties": {
+        "name": "Pronto Atendimento Jardim Leonor",
+        "address": "R. Aroeira, 284 - Leonor, Londrina - PR, 86071-230",
+        "info": "O Pronto Atendimento Leonor (24h/dia) presta assistência ininterrupta, sendo uma das principais portas de entrada no atendimento às urgências e emergências, acolhendo os casos agudos e crônicos agudizados, sendo resolutivo na maioria das vezes.",
+        "atendimento": "24 Horas",
+        "telefone": "4333790713",
+        "tipo": "Unidade Pronto Atendimento"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.197825968292996, -23.290946416049973]
+      },
+      "properties": {
+        "name": "Roma Odontologia Londrina",
+        "address": "Rua Ruy Virmond Carnascialli, 605 - Leonor, Londrina - PR, 86071-260",
+        "info": "Clínica odontológica localizada em região comercial de um bairro desde 2003. Atende todas as áreas da odontologia, equipe especializada e estrutura bem equipada.",
+        "atendimento": "Semana, 08:00–18:00 e Sábado, 08:00–12:00",
+        "telefone": "4333546000",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.17920674384474, -23.29768736051147]
+      },
+      "properties": {
+        "name": "Eduardo Vicentini-Ana Paula Pagnan Consultório Odontológico",
+        "address": "R. da Lua, 52 - Jardim do Sol, Londrina - PR, 86070-250",
+        "info": "Clínica focada na Odontologia com foco na busca por soluções com base científica e tecnológica.",
+        "atendimento": "Semana, 06:30–18:30 e Sábado, 06:30–10:30",
+        "telefone": "4333271840",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15735043675235, -23.318097988652973]
+      },
+      "properties": {
+        "name": "IHEL - Instituto de Hematologia de Londrina",
+        "address": "R. Sen. Souza Naves, 667 - Centro, Londrina - PR, 86010-160",
+        "info": "O IHEL (Instituto de Hematologia de Londrina) é uma empresa de assistência hospitalar em que se preza doações de sangue",
+        "atendimento": "Semana, 08:00–17:30",
+        "telefone": "4333747800",
+        "tipo": "Banco de Sangue"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1577128619584, -23.321207470882964]
+      },
+      "properties": {
+        "name": "Laboratório Oswaldo Cruz",
+        "address": "R. Sen. Souza Naves, 1000 - Centro, Londrina - PR, 86010-160",
+        "info": "Laboratório especializado em exames toxicológicos para CNH e demais exames toxicologia",
+        "atendimento": "Semana, 07:00–19:00, Sábado, 07:00–13:00 e Domingo 07:00–12:00",
+        "telefone": "4333766100",
+        "tipo": "Laboratório Médico"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15794904235607, -23.325197468206277]
+      },
+      "properties": {
+        "name": "Centro do Coração",
+        "address": "R. Sen. Souza Naves, 1456 - Londrilar, Londrina - PR, 86010-160",
+        "info": "Clínica de cardiologia com mais de 30 anos de história no Paraná. Conta com um corpo clínico de médicos referências em suas áreas de atuação. Clínica conta também com nutricionista, médico de família, endocrinologista e clínico médico.",
+        "atendimento": "Semana, 07:30–18:00 e Sábado, 08:00–12:00",
+        "telefone": "4333721900",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.156850818576714, -23.32784335030206]
+      },
+      "properties": {
+        "name": "Clinimagem Ressonancia",
+        "address": "R. Francisco Feijó Sanches, 15 - Petrópolis, Londrina - PR, 86015-480",
+        "info": "Clínica especializada em exames radiológicos.",
+        "atendimento": "Semana, 07:00–18:00",
+        "telefone": "4333783454",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1621067148748, -23.32581779209714]
+      },
+      "properties": {
+        "name": "Clinica Grion",
+        "address": "R. Cláudio Manuel da Costa, 133 - Lago Parque, Londrina - PR, 86010-010",
+        "info": "Clínica Especializada em Cardiologia, Endocrinologia, Oftalmologia e Ultrassonografia",
+        "atendimento": "Semana, 08:00–19:00 e Sábado, 08:00–13:00",
+        "telefone": "4330669899",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16280331672587, -23.32695949370483]
+      },
+      "properties": {
+        "name": "Hospital OtoCentro",
+        "address": "R. Martin Luther King, 635 - Lago Parque, Londrina - PR, 86015-300",
+        "info": "Especializado em Otorrinolaringologia, Anestesiologia, Cardiologia,Cirurgia Buco-Maxilo-Facial, Cirurgia Cabeça e Pescoço, Cirurgia Oftalmológica, Cirurgia Ortopédica, Cirurgia Pediátrica.",
+        "atendimento": "Semana, 06:00–18:00 e Sábado, 08:00–12:00",
+        "telefone": "4333241212",
+        "tipo": "Hospital"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16133346302345, -23.32797425271146]
+      },
+      "properties": {
+        "name": "Clínica Gemina",
+        "address": "R. Alvarenga Peixoto, 303 - Lago Parque, Londrina - PR, 86015-340",
+        "info": "Clínica de imagem especializada no diagnóstico da mulher, ultrassonografia obstétrica 3D/4D HD LIVE e ecocardiograma fetal.",
+        "atendimento": "Semana, 08:00–18:00 e Sábado, 08:00–11:00",
+        "telefone": "4330291404",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.162524116725706, -23.32963029746579]
+      },
+      "properties": {
+        "name": "Clínica de Otorrino Dr Luis Alberto Okano",
+        "address": "R. Júlio Estrela Moreira, 530 - Jardim Paraty, Londrina - PR, 86015-070",
+        "info": "Clínica especializada em Otorrinolaringologia.",
+        "atendimento": "Semana, 08:00–12:00 e 14:00–17:30",
+        "telefone": "4333243809",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16203910591807, -23.330358751658075]
+      },
+      "properties": {
+        "name": "Clínica Tatibana",
+        "address": "R. Júlio Estrela Moreira, 294 - Canaã, Londrina - PR, 86015-070",
+        "info": "Clínica especializada em Nutrição Integrativa e Saúde",
+        "atendimento": "Semana, 09:00–18:00 e Sexta, 09:00–13:00",
+        "telefone": "4333240406",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16104040138229, -23.33003400452301]
+      },
+      "properties": {
+        "name": "Fabio Andre Levandowski, Cirurgião cranio-maxilo-facial",
+        "address": "R. Martin Luther King, 240 - Lago Parque, Londrina - PR, 86015-300",
+        "info": "Clínica especializada em Cirurgia Estética e Funcional do Nariz e Harmonização Facial - Botox",
+        "atendimento": "Semana, 08:00–18:00",
+        "telefone": "4333418215",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15956358616693, -23.331180076405634]
+      },
+      "properties": {
+        "name": "Clínica de Neurologia do Lago - Luis Sidonio Teixeira Silva",
+        "address": "R. Martin Luther King, 22 - Lago Parque, Londrina - PR, 86015-300",
+        "info": "Clinica especializada em Neurologia.",
+        "atendimento": "Semana, 08:00–12:00 e 13:00–18:00, Sábado, 08:00–11:00",
+        "telefone": "4333432290",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15923099225554, -23.33071705276839]
+      },
+      "properties": {
+        "name": "Instituto da Coluna e Dor",
+        "address": "R. Tomas Antônio Gonzaga, 54 - Lago Parque, Londrina - PR, 86015-320",
+        "info": "Especializada em Cirurgia de coluna e fisioterapia ortopédica/osteopatia",
+        "atendimento": "Semana, 08:00–18:00",
+        "telefone": "4330263030",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1615786878491, -23.33059213777696]
+      },
+      "properties": {
+        "name": "Dr. Paulo Muller Transplante Capilar",
+        "address": "R. Júlio Estrela Moreira, 220 - Canaã, Londrina - PR, 86039-180",
+        "info": "Clínica de Dermatologia especializada em tricologia e transplante capilar.",
+        "atendimento": "Semana, 08:00–18:00",
+        "telefone": "43999971764",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.211292974357406, -23.299493401160532]
+      },
+      "properties": {
+        "name": "Ambulatório da PUCPR Londrina",
+        "address": "Av. Jockei Club, 485 - Hipica, Londrina - PR, 86067-000",
+        "info": "O ambulatório da PUCPR Câmpus Londrina está se tornando uma referência no atendimento clínico",
+        "atendimento": "Semana, 07:30–18:00",
+        "telefone": "4333726084",
+        "tipo": "Hospital"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15427624552204, -23.28820542973229]
+      },
+      "properties": {
+        "name": "London Med",
+        "address": "R. Inocência Antunes das Neves, 82 - Pacaembu, Londrina - PR, 86079-210",
+        "info": "Clínica responsável por realizar exames de aptidão física e mental",
+        "atendimento": "Semana, 08:00–18:00",
+        "telefone": "4333430808",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.12737417065604, -23.32699929006467]
+      },
+      "properties": {
+        "name": "Hemocentro Regional de Londrina",
+        "address": "R. Cláudio Donizete Cavalieri, 156 - Jardim Taruma, Londrina - PR, 86038-670",
+        "info": "Serviço público, integrante da hemorrede paranaense de coleta, processamento e distribuição de sangue para hospitais integrantes da rede SUS.",
+        "atendimento": "Semana, 08:00–18:30 e Sábado, 08:00–17:30",
+        "telefone": "4333712218",
+        "tipo": "Hospital"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16363886086335, -23.341474868013677]
+      },
+      "properties": {
+        "name": "Marcelo Takeshi Ono",
+        "address": "R. Alberto Maurício Barroso Júnior, 74 - Bela Suiça, Londrina - PR, 86047-260",
+        "info": "Clínica Especializada em Cirurgias Plásticas.",
+        "atendimento": "Semana, 08:00–12:00 e 14:00–18:00",
+        "telefone": "43991895593",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.135238547369745, -23.373991495240368]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Itapoã",
+        "address": "Rua Benedito José Theodoro, 258 Jd, R. Benedito José Teodoro, 259 - Itapoã, Londrina - PR, 86043-210",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Itapoã são consultas médicas, inalações, injeções, curativos, vacinas, coletas de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333790887",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.12934980134041, -23.386400519810937]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde União da Vitória",
+        "address": "R. Dezenove de Abril, 55 - Cj - União da Vitória, Londrina - PR, 86044-000",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde União da Vitória são consultas médicas, inalações, injeções, curativos, vacinas, coletas de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Todos os dias, 07:00–23:00",
+        "telefone": "4333790765",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.13786605716237, -23.367166143563903]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Pind",
+        "address": "R. Firmino Lemes de Oliveira, 424 - Parque das Industrias, Londrina - PR, 86041-270",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Pind são consultas médicas, inalações, injeções, curativos, vacinas, coletas de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333790753",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.14288923202738, -23.353405930733278]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Piza/Roseira",
+        "address": "R. Veneza, 546 - Jardim Piza, Londrina - PR, 86041-270",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Piza/Roseira são consultas médicas, inalações, injeções, curativos, vacinas, coletas de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333790754",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.14366301668486, -23.336466153660183]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Eldorado",
+        "address": "R. Tertuliano, 800 - Jd. Califórnia, Londrina - PR, 86040-210",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Eldorado são consultas médicas, inalações, injeções, curativos, vacinas, coletas de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "4333790879",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15022474552088, -23.327808805621938]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Vila Brasil",
+        "address": "R. Argentina, 600 - Vila Brasil, Londrina - PR, 86010-260",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Vila Brasil são consultas médicas, inalações, injeções, curativos, vacinas, coletas de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00–19:00",
+        "telefone": "04333267930",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.161415774356534, -23.325258255144732]
+      },
+      "properties": {
+        "name": "Dr. Lucas Bertoldi, Neurologista",
+        "address": "Av. Bandeirantes, 476 - Ipiranga, Londrina - PR, 86010-020",
+        "info": "Clínica especializada em Neurologia e Neuroimunologia.",
+        "atendimento": "Semana, 07:00–18:00",
+        "telefone": "4333761500",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15793203202806, -23.32850822720696]
+      },
+      "properties": {
+        "name": "Dra Rafaela Rodrigues Sampaio Nogueira",
+        "address": "R. Sen. Souza Naves, 1788 - Jardim Londrilar, Londrina - PR, 86015-430",
+        "info": "Clínica especializada em atendimento de pacientes com queixas respiratórias.",
+        "atendimento": "Semana, 08:00–18:00 e Sábado, 08:00–12:00",
+        "telefone": "4333236266",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16251073017786, -23.323570545230016]
+      },
+      "properties": {
+        "name": "Drª Mariana Espiga Maioli - Nefrologista",
+        "address": "Rua: Olinda, 221 - sala 15 - Ipiranga, Londrina - PR, 86010-050",
+        "info": "Clínica especializada em nefrologia e Doenças Renais.",
+        "atendimento": "Semana, 08:00–18:00",
+        "telefone": "43991681800",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15853688784932, -23.32465995866293]
+      },
+      "properties": {
+        "name": "Dr Márcio Alexandre Próspero",
+        "address": "R. Antônio Amado Noivo, 92 - Ipiranga, Londrina - PR, 86010-640",
+        "info": "Clínica especializada em cirurgia geral, cirurgia de aparelho digestivo e Coloproctologista.",
+        "atendimento": "Semana, 08:30–18:30 e Sábado, 09:00–12:00",
+        "telefone": "4333434545",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16263891668508, -23.329296441966573]
+      },
+      "properties": {
+        "name": "Dr. Victor Batistela",
+        "address": "R. Júlio Estrela Moreira, 550 - Petrópolis, Londrina - PR, 86015-070",
+        "info": "Clínica especializada em Neurocirurgia e Coluna Vertebral.",
+        "atendimento": "Semana, 08:00–18:00 e Sábado, 08:00–13:00",
+        "telefone": "4333738300",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16110477435652, -23.33003400451685]
+      },
+      "properties": {
+        "name": "Dr. Victor Hugo Ferreira-Endocrinologista",
+        "address": "R. Martin Luther King, 240 - Lago Parque, Londrina - PR, 86015-300",
+        "info": "Consultório especialista em endocrinologia.",
+        "atendimento": "Semana, 08:00–12:00 e 14:00–18:00",
+        "telefone": "4333418215",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15611304964007, -23.323926370232613]
+      },
+      "properties": {
+        "name": "Clínica Miyabara - Clinico Geral | Gastro | Acupuntura | Shiatsu | Pilates",
+        "address": "R. Mato Grosso, 1693 - Centro, Londrina - PR, 86010-180",
+        "info": "Com mais de 20 anos no mercado, buscamos levar para nossos pacientes qualidade de vida e saúde através dos nossos serviços! Somos uma clínica multidisciplinar, com Clínico Geral, Gastro, Acupuntura, Shiatsu, Pilates e nosso objetivo é sempre o bem estar dos nossos pacientes! Com profissionais altamente capacitados e muito humanos, nosso ambiente se torna aconchegante e nosso atendimento o melhor da cidade. Venha nos conhecer. Nós queremos cuidar de você!",
+        "atendimento": "Semana, 08:00 - 18:00",
+        "telefone": "4333245723",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.17516306201031, -23.306158709383563]
+      },
+      "properties": {
+        "name": "Onvita Consultas e Exames",
+        "address": "R. Ibiporã, 573 - Jardim Santo Antonio, Londrina - PR, 86060-510",
+        "info": "Consultas, procedimentos e cirurgias à valores acessíveis com atendimento de alta qualidade nas especialidades de Cardiologia, Cirurgia Vascular, Clínico geral, Dermatologia, Endocrinologia, Gastroenterologia, Ginecologia e Obstetrícia, Infectologia Neuropsicologia, Nutrição, Ortopedia, Otorrino, Psiquiatria, Psicologia, Reumatologia, Urologia.",
+        "atendimento": "Semana, 08:00 - 18:00. Sábado, 08:00 - 12:00",
+        "telefone": "4333737900",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.18709709036452, -23.327074307657096]
+      },
+      "properties": {
+        "name": "Clínica das Palmeiras",
+        "address": "R. das Açucenas, 700 - Colina Verde, Londrina - PR, 86050-570",
+        "info": "A Clínica das Palmeiras atua na área da psiquiatria, especializada em Depressão, Drogas, Alcoolismo e Stress.",
+        "atendimento": "Semana, 07:00 - 19:00",
+        "telefone": "4333288484",
+        "tipo": "Clínica"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.15671042750705, -23.3236009625699]
+      },
+      "properties": {
+        "name": "Clínica Qualimedi Saúde - Consultas, Exames e Cirurgias acessíveis",
+        "address": "R. Mato Grosso, 1652 - Centro, Londrina - PR, 86010-180",
+        "info": "A Qualimedi Saúde é uma clínica médica com 40 médicos especialistas e 24 especialidades: acupuntura, cardiologia, gastro, cirurgia geral, vascular e angiologia, dermatologia, endocrinologista, geriatria, ginecologia, hematologia, nefrologia, nutrição, oftalmologia, oncologia, ortopedia, otorrinolaringologia, pediatria, pneumologia, psicologia, psiquiatria, reumatologia e urologia.",
+        "atendimento": "Semana, 08:00 - 18:00. Sábado, 08:00 - 12:00",
+        "telefone": "4333430022",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.16115192784781, -23.3228701389501]
+      },
+      "properties": {
+        "name": "Clínica Agiliza Med",
+        "address": "R. Paes Leme, 1264 - Sala 01 - Jardim America, Londrina - PR, 86010-610",
+        "info": "Coworking Médico em Londrina. A Clínica Agiliza Med dispõe de especialistas em diversas áreas, como Ginecologia e Obstetrícia, Neurologia, Dermatologia, Homeopatia e outros. Cada médico tem como objetivo oferecer um atendimento atencioso e especializado, utilizando as técnicas mais avançadas e atualizadas para cada caso. Atendemos Particular e Convênio.",
+        "atendimento": "Semana, 08:00 - 18:00",
+        "telefone": "4333015973",
+        "tipo": "Clínica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.155365192067386, -23.29854796530016]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Centro Social Urbano",
+        "address": "R. Atílio Scudeler, 283 - Portuguesa, Londrina - PR, 86025-530",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Centro Social Urbano são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00 - 19:00",
+        "telefone": "433290025",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.107353801439075, -23.32952856313183]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Ernani",
+        "address": "R. Gerônimo Máximo, 30 - Cj. Ernani M. Lima, Londrina - PR, 86037-190",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Ernani são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00 - 19:00",
+        "telefone": "4333790881",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.13939675220384, -23.307825265262537]
+      },
+      "properties": {
+        "name": "UBS - Vila Ricardo",
+        "address": "R. Rosa Branca, 300 - Ricardo, Londrina - PR, 86035-180",
+        "info": "Os principais serviços oferecidos pela UBS - Vila Ricardo são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00 - 19:00",
+        "telefone": "4333790772",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.139428814431824, -23.30718860896928]
+      },
+      "properties": {
+        "name": "Unidade Básica De Saúde Fraternidade",
+        "address": "R. Rosa Branca, 246 - Ricardo, Londrina - PR, 86025-480",
+        "info": "Os principais serviços oferecidos pela Unidade Básica De Saúde Fraternidade são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00 - 19:00",
+        "telefone": "4333790770",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.11329062892046, -23.322520403620533]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Armindo Guazzi",
+        "address": "Av. São João, 4321 Conj - C. H. Armindo Guazzi, Londrina - PR, 86036-030",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Armindo Guazzi são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00 - 19:00",
+        "telefone": "4333790861",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.13162540976859, -23.311160795860342]
+      },
+      "properties": {
+        "name": "Unidade Básica de Saúde Marabá",
+        "address": "R. das Goiabeiras, 385 - Jd. Marabá, Londrina - PR, 86035-430",
+        "info": "Os principais serviços oferecidos pela Unidade Básica de Saúde Marabá são consultas médicas, inalações, injeções, curativos, vacinas, coleta de exames laboratoriais, tratamento odontológico, encaminhamentos para especialidades e fornecimento de medicação básica.",
+        "atendimento": "Semana, 07:00 - 19:00",
+        "telefone": "433371181",
+        "tipo": "Unidade Básica de Saúde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.162226728307175, -23.302122524555113]
+      },
+      "properties": {
+        "name": "Ana Gobato Podologia",
+        "address": "R. Paraguaçu, 57 - Jardim Palmares, Londrina - PR, 86025-350",
+        "info": "Clínica especializada em Podologia.",
+        "atendimento": "Semana, 08:00–18:00",
+        "telefone": "43998224946",
+        "tipo": "Clínica"
+      }
+    }
+  ]
+}
